@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Ankush Sharma - Resume</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{
+  background:linear-gradient(135deg,#0f172a,#1e293b);
+  color:#e5e7eb;
+  font-family:'Inter',sans-serif;
+  line-height:1.6;
+  max-width:900px;
+  margin:auto;
+  padding:40px 20px;
+}
+header{
+  text-align:center;
+  padding:40px 0 25px;
+  border-bottom:1px solid rgba(255,255,255,0.15);
+}
+h1{
+  font-family:'Playfair Display',serif;
+  font-size:2.8rem;
+  color:#fff;
+  margin-bottom:10px;
+}
+.title{
+  font-style:italic;
+  color:#a5b4fc;
+  font-size:1.1rem;
+  margin-bottom:20px;
+}
+.contact-info{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  gap:14px;
+}
+.contact-item{
+  display:flex;
+  align-items:center;
+  gap:8px;
+  background:rgba(255,255,255,0.08);
+  padding:6px 14px;
+  border-radius:20px;
+  transition:0.3s;
+}
+.contact-item:hover{background:rgba(255,255,255,0.2);transform:translateY(-2px)}
+.contact-item a{color:#fff;text-decoration:none;display:flex;align-items:center;gap:6px}
+section{
+  padding:35px 10px;
+  border-bottom:1px solid rgba(255,255,255,0.15);
+}
+h2{
+  font-family:'Playfair Display',serif;
+  font-size:1.7rem;
+  margin-bottom:15px;
+  color:#fff;
+}
+p,ul{font-size:1.05rem;color:#d1d5db}
+ul{padding-left:22px;list-style-type:disc}
+li{margin-bottom:10px}
+.skills-list,.hobbies-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:12px;
+}
+.skill,.hobby-tag{
+  background:rgba(255,255,255,0.08);
+  padding:8px 16px;
+  border-radius:20px;
+  border:1px solid rgba(255,255,255,0.2);
+  font-size:0.95rem;
+  transition:0.3s;
+}
+.skill:hover,.hobby-tag:hover{background:rgba(255,255,255,0.2);transform:translateY(-3px)}
+.education-item{
+  margin-bottom:22px;
+  padding-left:18px;
+  border-left:3px solid rgba(255,255,255,0.2);
+}
+.degree{color:#a5b4fc;font-weight:600}
+.school{color:#ccc}
+.date{font-size:0.9rem;color:#9ca3af}
+.job-title{color:#93c5fd;font-weight:600}
+.date-location{color:#9ca3af;font-size:0.95rem}
+.print-btn{
+  display:block;
+  margin:30px auto 0;
+  background:#3b82f6;
+  color:#fff;
+  border:none;
+  padding:10px 24px;
+  border-radius:25px;
+  font-size:1rem;
+  cursor:pointer;
+  transition:0.3s;
+}
+.print-btn:hover{background:#2563eb;transform:scale(1.05)}
+@media(max-width:768px){
+  header{padding:30px 10px}
+  h1{font-size:2.2rem}
+  section{padding:25px 5px}
+  .contact-info{flex-direction:column;gap:10px}
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Ankush Sharma</h1>
+  <div class="title">B.Tech Computer Engineering Student</div>
+  <div class="contact-info">
+    <div class="contact-item">
+      <a href="mailto:ankush.sharma24@sakec.ac.in"><i class="fa-solid fa-envelope"></i> ankush.sharma24@sakec.ac.in</a>
+    </div>
+    <div class="contact-item">
+      <a href="https://github.com/ankush2006a" target="_blank"><i class="fa-brands fa-github"></i> github.com/ankush2006a</a>
+    </div>
+    <div class="contact-item"><i class="fa-solid fa-phone"></i> 9221520824</div>
+    <div class="contact-item"><i class="fa-solid fa-location-dot"></i> Kalina, Santacruz (E)</div>
+  </div>
+</header>
+<section>
+  <h2>Objective</h2>
+  <p>Motivated B.Tech Computer Engineering student aiming to leverage strong programming skills, problem-solving ability, and passion for technology to contribute effectively to software development projects and grow professionally.</p>
+</section>
+<section>
+  <h2>Technical Skills</h2>
+  <div class="skills-list">
+    <span class="skill">C</span><span class="skill">C++</span><span class="skill">Java</span><span class="skill">Python</span>
+    <span class="skill">JavaScript</span><span class="skill">HTML5</span><span class="skill">CSS3</span><span class="skill">Bootstrap</span>
+    <span class="skill">React (basic)</span><span class="skill">MySQL</span><span class="skill">MongoDB (basic)</span>
+    <span class="skill">Git & GitHub</span><span class="skill">Linux</span>
+  </div>
+</section>
+<section>
+  <h2>Education</h2>
+  <div class="education-item">
+    <div class="degree">B.Tech in Computer Engineering</div>
+    <div class="school">Shah and Anchor Kutchhi Engineering College, Chembur</div>
+    <div class="date">Currently in Semester 3 | Expected Graduation: 2028</div>
+  </div>
+  <div class="education-item">
+    <div class="degree">HSC Science</div>
+    <div class="school">Shri S.K Somaiya Vinay Mandir Junior College, Vidyavihar</div>
+    <div class="date">Completed 2022</div>
+  </div>
+  <div class="education-item">
+    <div class="degree">SSC</div>
+    <div class="school">St. Mary's High School, Kalina</div>
+    <div class="date">Completed 2020</div>
+  </div>
+</section>
+<section>
+  <h2>Academic Achievements</h2>
+  <ul>
+    <li>Secured distinction in Mathematics and Chemistry in HSC.</li>
+    <li>Consistently ranked in top 10% in school and junior college.</li>
+  </ul>
+</section>
+<section>
+  <h2>Projects</h2>
+  <ul>
+    <li>
+      <span class="job-title">Hospital Management System</span><br>
+      <span class="date-location">Java (NetBeans) & MySQL</span><br>
+      Built a hospital management system with patient registration, doctor scheduling, and database integration using NetBeans and SQL.
+    </li>
+    <li>
+      <span class="job-title">Personal Portfolio Website</span><br>
+      <span class="date-location">HTML, CSS, JavaScript</span><br>
+      Created a responsive portfolio website to showcase projects, skills, and contact details.
+    </li>
+  </ul>
+</section>
+<section>
+  <h2>Certifications</h2>
+  <ul>
+    <li>Tutedude – Python Programming (June 2025)</li>
+    <li>Cisco NetAcad – JavaScript Essentials 1 (October 2025)</li>
+  </ul>
+</section>
+<section>
+  <h2>Extracurricular Activities</h2>
+  <ul>
+    <li>Active member of the college coding club.</li>
+    <li>Participated in hackathons and coding competitions on HackerRank.</li>
+    <li>Volunteered for local community tech workshops.</li>
+  </ul>
+</section>
+<section>
+  <h2>Interests</h2>
+  <div class="hobbies-list">
+    <span class="hobby-tag">Coding</span><span class="hobby-tag">Reading Tech Blogs</span>
+    <span class="hobby-tag">Playing Chess</span><span class="hobby-tag">Exploring New Technologies</span>
+  </div>
+</section>
+<button class="print-btn" onclick="window.print()">Print Resume</button>
+</body>
+</html>
